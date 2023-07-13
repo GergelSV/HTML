@@ -1,0 +1,49 @@
+* {
+    color: blue;
+    text-transform:capitalize;
+}
+
+body {
+    /* background-color: red; */
+}
+
+h1 {
+    background-color: rgb(839390, 41, 35);
+}
+
+h1{
+    background-color: rgb(260, 41, 35);
+    color: green;
+    box-shadow: inset 0px 0px 133px -22px rgba(242,51,242,1);
+}
+
+img {
+    /* width: 100px; */
+    width: 10%;
+}
+
+p {
+    font-size: 12px;
+}
+
+.p {
+    color: violet;
+    font-size: 30px;
+}
+
+#p {
+    color: greenyellow;
+}
+a img {
+    width: 20%;
+}
+
+li {
+    border-radius: 100%;
+    margin: 20px;
+    height: 100px;
+    box-shadow: inset 0px 0px 133px -22px rgba(242,51,242,1);
+}
+
+
+

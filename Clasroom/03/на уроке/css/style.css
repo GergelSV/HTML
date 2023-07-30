@@ -1,0 +1,26 @@
+table {
+    width: 700px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.yelow {
+    background-color: bisque;
+}
+
+.blu {
+    background-color: cornflowerblue;
+}
+
+.corall {
+    background-color: coral;
+}
+
+.green {
+    background-color: chartreuse;
+}
+
+.fucsia {
+    background-color: fuchsia;
+}

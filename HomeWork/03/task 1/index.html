@@ -1,112 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    
-    th, td {
-        padding: 10px;
-        border: 1px solid black;
-    }
-    
-    th {
-        background-color: lightgray;
-    }
-    
-    th:first-child, td:first-child {
-        position: sticky;
-        left: 0;
-        background-color: lightgray;
-    }
-    
-    th:last-child, td:last-child {
-        position: sticky;
-        right: 0;
-        background-color: lightgray;
-    }
-    
-    thead th {
-        position: sticky;
-        top: 0;
-        background-color: lightgray;
-    }
-    
-    tbody {
-        display: block;
-        height: 200px;
-        overflow-y: scroll;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work Cards</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
-                <th>Header 3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Data 1</td>
-                <td>Data 2</td>
-                <td>Data 3</td>
-            </tr>
-            <tr>
-                <td>Data 4</td>
-                <td>Data 5</td>
-                <td>Data 6</td>
-            </tr>
-            <tr>
-                <td>Data 7</td>
-                <td>Data 8</td>
-                <td>Data 9</td>
-            </tr>
-            <tr>
-                <td>Data 10</td>
-                <td>Data 11</td>
-                <td>Data 12</td>
-            </tr>
-            <tr>
-                <td>Data 13</td>
-                <td>Data 14</td>
-                <td>Data 15</td>
-            </tr>
-            <tr>
-                <td>Data 16</td>
-                <td>Data 17</td>
-                <td>Data 18</td>
-            </tr>
-            <tr>
-                <td>Data 19</td>
-                <td>Data 20</td>
-                <td>Data 21</td>
-            </tr>
-            <tr>
-                <td>Data 22</td>
-                <td>Data 23</td>
-                <td>Data 24</td>
-            </tr>
-            <tr>
-                <td>Data 25</td>
-                <td>Data 26</td>
-                <td>Data 27</td>
-            </tr>
-            <tr>
-                <td>Data 28</td>
-                <td>Data 29</td>
-                <td>Data 30</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <div class="card">
+            <div class="card-title">ENTERPRISE</div>
+            <div class="card-line red"></div>
+            <div class="card-price">$69</div>
+            <div class="card-contetnt-grey">per month</div>
+            <div class="card-content">
+                <p>10 GB disk space</p>
+                <p>100GB monthly bandwidth</p>
+                <p>20 email accounts</p>
+                <p>Unlimited subdomens</p>
+            </div>
+            <div class="btn red">BUY</div>
+        </div>
+            <div class="card">
+            <div class="card-title">PROFESSIONAL</div>
+            <div class="card-line yellow"></div>
+            <div class="card-price">$29</div>
+            <div class="card-contetnt-grey">per month</div>
+            <div class="card-content">
+                <p>5 GB disk space</p>
+                <p>60GB monthly bandwidth</p>
+                <p>10 email accounts</p>
+                <p>Unlimited subdomens</p>
+            </div>
+            <div class="btn yellow">BUY</div>
+        </div>
+        <div class="card">
+            <div class="card-title">STANDART</div>            
+            <div class="card-line blue"></div>
+            <div class="card-price">$19</div>
+            <div class="card-contetnt-grey">per month</div>
+            <div class="card-content">
+                <p>3 GB disk space</p>
+                <p>30GB monthly bandwidth</p>
+                <p>5 email accounts</p>
+                <p>Unlimited subdomens</p>
+            </div>
+            <div class="btn blue">BUY</div>
+        </div>
+        <div class="card">
+            <div class="card-title">BASIC</div>
+            <div class="card-line green"></div>
+            <div class="card-price">$9</div>
+            <div class="card-contetnt-grey">per month</div>
+            <div class="card-content">
+                <p>1 GB disk space</p>
+                <p>10B monthly bandwidth</p>
+                <p>2 email accounts</p>
+                <p>Unlimited subdomens</p>
+            </div>
+            <div class="btn green">BUY</div>
+        </div>                 
+    </div> 
 </body>
 </html>

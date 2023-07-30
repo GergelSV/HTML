@@ -1,0 +1,34 @@
+* {
+    background-color: rgb(128, 127, 127);
+    color: aliceblue;
+}
+.japan {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.japan::before {
+    content: ".";
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    border-radius: 100%;
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 22%;
+    left: 30%;
+
+}
+@media (max-width:979px) {
+.japan {
+    width: 600px;
+    height: 400px;
+}
+.japan::before {
+    width: 200px;
+    height: 200px;
+}
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@400;500&display=swap');
+* {
+    color: black;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.conteiner {
+    position: relative;
+    width: 900px; 
+    box-sizing: border-box;
+}
+
+.conteiner--inner1 {
+    width: 100%;
+   
+    
+}
+
+.conteiner--inner2 {
+    width: 100%;
+    margin-top: 90px;
+}
+
+table {
+    width: 100%;   
+    text-align: center;
+    color: black;
+    margin: auto;
+    /* прибираємо відступ між клітинками*/
+    border-collapse: collapse;
+    
+    
+}
+
+th {
+    background-color: rgb(193, 216, 247);   
+    font-size: 25px;
+    width: 150px;
+    height: 90px;
+    border-color:  rgb(193, 216, 247); 
+}
+
+.title {
+    position: fixed;
+    left: 270px; 
+    z-index: 20;
+}
+
+.blue {
+    color: rgb(193, 216, 247);
+}
+
+.blue_grey {
+    background-color: rgb(215, 218, 219);
+}
+
+td {
+    font-size: 15px;
+    height: 90px;
+   
+}
+@media (max-width:1700px) {
+    .title {
+        left: 342px;
+    }
+}
+@media (max-width:1440px) {
+    .title {
+        left: 270px   }
+ }
+@media (max-width:1200px) {
+.title {
+    left: 150px;
+}
+}
+
+@media (max-width:1024px) {
+     .title {
+        left: 62px;
+    }
+ }
+@media (max-width: 979px) {
+    .title {
+        left: 40px;
+    }
+    td {
+        font-size: 12px;
+        height: 70px;
+    }
+    th {
+        font-size: 20px;
+        
+    }
+
+}
+@media (max-width: 768px) {
+    .title {
+        left: 0px;
+    }
+    td {
+        font-size: 11px;
+        width: 100px; 
+        height: 40px;
+    }
+    th {
+        font-size: 18px;
+        width: 148px;
+        
+    }
+}

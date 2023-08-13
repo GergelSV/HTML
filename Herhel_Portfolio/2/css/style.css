@@ -1,0 +1,16 @@
+.block {
+    width: 800px;
+    background-color: rgb(238, 234, 234);
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(41, 21, 116);
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(104, 104, 202);
+}

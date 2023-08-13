@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@500&display=swap');
+* {
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding-left: 20px;
+    margin-top: 90px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(235, 232, 232);    
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    width: 20%;
+    background-color: white;
+    height: 320px;
+    margin: 18px;    
+    border-radius: 8%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 5px 5px rgb(148, 148, 148);
+}
+
+.card-contetnt-grey {
+    color: rgb(184, 182, 182);
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.card:hover {
+    width: 21%;
+    height: 330px;
+    margin: 0;
+}
+
+.card-price, .card-content {
+    margin: 10px;
+}
+
+.card-content {
+    font-size: 12px;
+    text-align: center;
+} 
+
+.card-title {
+    margin: 20px;
+}
+
+.card-price {    
+    font-family: 'Borel', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    /* font-family: 'Borel', cursive; */
+    margin-bottom: 0px;
+}
+
+.card-line {
+    width: 100%;
+    height: 5px;
+}
+
+p {
+    padding: 3px;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px 20px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.blue {
+    background-color: rgb(67, 45, 126);
+}
+
+.red {
+    background-color: rgba(175, 5, 98, 0.712);
+}
+
+.green {
+    background-color: rgb(9, 211, 117);
+    }
+
+.yellow {
+    background-color: rgb(241, 147, 5);
+}
+
+@media (max-width:1200px) {
+    .container {
+        padding-left: 10px;
+        margin-top: 70px;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 170px; 
+        height: 270px;
+        margin: 15px;    
+    }
+    .card-contetnt-grey {
+        font-size: 12px;
+    }
+    .card-content {
+        font-size: 10px;        
+    } 
+    
+    .card-title {
+        margin: 10px;
+    }
+    
+    .card-price {    
+        
+        font-size: 20px;
+        font-weight: 400;
+        /* margin-bottom: 0px; */
+    }
+    
+    .card-line {
+        width: 100%;
+        height: 3px;
+    }
+    
+    p {
+        padding: 2px;
+    }
+    
+    .btn {
+        margin: 15px;
+        padding: 5px 10px;               
+    }
+    .card:hover {
+        width: 180px; 
+        height: 280px;
+        
+    }
+    
+}
+
+@media (max-width:979px) {
+    .container {
+        padding-left: 60px;
+        margin-top: 70px;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 170px; 
+        height: 270px;
+        margin: 15px;    
+    }
+    .card-contetnt-grey {
+        font-size: 12px;
+    }
+    .card-content {
+        font-size: 10px;        
+    } 
+    
+    .card-title {
+        margin: 10px;
+    }
+    
+    .card-price {    
+        
+        font-size: 20px;
+        font-weight: 400;
+        /* margin-bottom: 0px; */
+    }
+    
+    .card-line {
+        width: 100%;
+        height: 3px;
+    }
+    
+    p {
+        padding: 2px;
+    }
+    
+    .btn {
+        margin: 15px;
+        padding: 5px 10px;               
+    }
+    .card:hover {
+        width: 180px; 
+        height: 280px;
+        
+    }
+    
+}
+@media (max-width:480px) {
+    .container {
+        padding-left: 10px;
+        margin-top: 70px;
+        width: 250px;
+        flex-wrap: wrap;
+        padding-left: 40px;
+    }
+    .card {
+        width: 160px; 
+        height: 270px;
+        margin: 15px;    
+    }
+    .card-contetnt-grey {
+        font-size: 12px;
+    }
+    .card-content {
+        font-size: 10px;        
+    } 
+    
+    .card-title {
+        margin: 10px;
+    }
+    
+    .card-price {    
+        
+        font-size: 20px;
+        font-weight: 400;
+        /* margin-bottom: 0px; */
+    }
+    
+    .card-line {
+        width: 100%;
+        height: 3px;
+    }
+    
+    p {
+        padding: 2px;
+    }
+    
+    .btn {
+        margin: 15px;
+        padding: 5px 10px;               
+    }
+    .card:hover {
+        width: 175px; 
+        height: 280px;
+        
+    }
+    
+}

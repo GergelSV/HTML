@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .conteiner {
-    background-color: rgb(250, 248, 248);
+    background-color: rgb(238, 232, 232);
     width: 500px;
     height: 380px;
     margin: auto;
@@ -17,8 +17,8 @@
     padding-left:10px ; 
     padding-top:10px ;
     margin-top: 20px;
-    background-color:rgb(174, 223, 223);
-    border-radius: 5%;
+    background-color:rgb(84, 180, 180);
+    border-radius: 3%;
 }
 .title {
     display: flex;
@@ -65,7 +65,7 @@
 }
 input {
     height: 30px;
-    background-color: rgb(193, 247, 247);
+    background-color: rgb(156, 201, 201);
     border: none;
     border-bottom: 1px solid  rgb(72, 94, 94) ;
     margin-left: 20px;
@@ -93,3 +93,69 @@ img {
     border: none;
     color: gray;
  }
+
+@media (max-width:1440px) {
+   .conteiner {
+        width: 800px;
+        height: 500px;
+        padding-top: 20px;
+        margin-top: 30px;
+   }
+   .conteiner--inner {
+        height: 450px;
+        padding-left:10px ;        
+        margin-top: 10px;
+   }
+   .title {    
+        font-size: 22px;
+        font-weight: 500;
+        width: 550px;
+        height: 50px;
+        padding-left: 12px;    
+        left: -35px;    
+        margin: 10px;
+    
+    }
+    #NameOnCard  {
+        width: 350px;
+    }
+
+    #cardNumber {
+        width: 350px;
+    }
+    #Month {
+        width: 85px;
+    }
+    #Year {
+        width: 85px;
+    }
+    #password {
+        width: 85px;
+    }
+    .validatyCard {    
+        width: 800px;     
+        margin-top: 20px;
+        
+    }
+    input {
+        height: 50px;
+        font-size: 20px;   
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        }
+    
+    img {
+        width: 45%;    
+        left: 375px;
+        top: -307px;
+        
+    }
+    button {
+        font-size: 20px;
+    }
+}
+
